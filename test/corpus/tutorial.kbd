@@ -191,7 +191,7 @@ defcfg
 
 (source_file
   (defcfg
-     (line_comment)
+     (inline_comment)
      (assignment
         (identifier)
         (function_call
@@ -202,28 +202,28 @@ defcfg
         (function_call
            (identifier)
            (string)
-           (line_comment)
-           (line_comment)
+           (inline_comment)
+           (inline_comment)
            (string)))
      (assignment
         (identifier)
         (value))
-     (line_comment)
+     (inline_comment)
      (assignment
         (identifier)
         (value))
-     (line_comment)
-     (line_comment)
-     (line_comment)
-     (line_comment)
-     (line_comment)
-     (line_comment)
-     (line_comment)
-     (line_comment)
+     (inline_comment)
+     (inline_comment)
+     (inline_comment)
+     (inline_comment)
+     (inline_comment)
+     (inline_comment)
+     (inline_comment)
+     (inline_comment)
      (assignment
         (identifier)
         (boolean))
-     (line_comment)
+     (inline_comment)
      (assignment
         (identifier)
         (boolean))))
@@ -399,11 +399,11 @@ defalias
          (function_call
            (identifier)
            (value)))
-      (line_comment)
+      (inline_comment)
       (assignment
          (identifier)
          (value))
-      (line_comment))
+      (inline_comment))
    (block_comment))
 
 =========

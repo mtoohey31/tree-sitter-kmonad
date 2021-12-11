@@ -269,7 +269,7 @@
     }
   },
   {
-    "type": "line_comment",
+    "type": "inline_comment",
     "named": true,
     "fields": {}
   },

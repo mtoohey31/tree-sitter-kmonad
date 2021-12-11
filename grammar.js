@@ -4,12 +4,12 @@
 module.exports = grammar({
   name: "kmonad",
 
-  extras: ($) => [/\s/, $.line_comment, $.block_comment],
+  extras: ($) => [/\s/, $.inline_comment, $.block_comment],
 
   rules: {
     source_file: ($) => repeat($._context),
 
-    line_comment: () => seq(";;", optional(/.+/), "\n"),
+    inline_comment: () => seq(";;", optional(/.+/), "\n"),
     _unbroken_line_comment: () => seq(";;", optional(/.+/)),
     block_comment: () => seq("#|", optional(/([^|]|(\|[^#]))+/), "|#\n"),
 

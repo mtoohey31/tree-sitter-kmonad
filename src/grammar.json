@@ -8,7 +8,7 @@
         "name": "_context"
       }
     },
-    "line_comment": {
+    "inline_comment": {
       "type": "SEQ",
       "members": [
         {
@@ -390,7 +390,7 @@
     },
     {
       "type": "SYMBOL",
-      "name": "line_comment"
+      "name": "inline_comment"
     },
     {
       "type": "SYMBOL",
